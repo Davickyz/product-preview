@@ -1,0 +1,382 @@
+body, div, p {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width:349px) {
+  section{
+    padding: 30px 10px;
+    height: 100%;
+  }
+
+  .card{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(96, 96, 96);
+  }
+
+  .productImg{
+    width: 100%;
+  }
+
+  #mobile{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #desktop{
+    display: none;
+    width: 100%;
+  }
+
+  .content{
+    padding: 24px 18px;
+  }
+
+  .perfume{
+    color: rgb(96, 96, 96);
+    letter-spacing: 6px;
+    margin-bottom: 12px;
+  }
+
+  .productTitle{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+
+  .description{  
+    color: rgb(96, 96, 96);
+    margin-bottom: 12px;
+  }
+
+  .price{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(3, 101, 57, 0.712);
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 12px;
+  }
+
+  .previousPrice{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-left: 16px;
+    text-decoration:line-through;
+  }
+
+  button{
+    width: 250px;
+    padding: 14px 0px;
+    background-color: rgba(3, 101, 57, 0.712);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+  }
+
+  button:hover{
+    background-color: rgb(1, 56, 31);
+  }
+
+  .cart{
+    margin-right: 12px;
+  }
+}
+
+@media (min-width:350px) and (max-width:450px) {
+  section{
+    padding: 30px 10px;
+    height: 100%;
+  }
+
+  .card{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(96, 96, 96);
+  }
+
+  .productImg{
+    width: 100%;
+  }
+
+  #mobile{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #desktop{
+    display: none;
+    width: 100%;
+  }
+
+  .content{
+    padding: 24px 18px;
+  }
+
+  .perfume{
+    color: rgb(96, 96, 96);
+    letter-spacing: 6px;
+    margin-bottom: 12px;
+  }
+
+  .productTitle{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+
+  .description{  
+    color: rgb(96, 96, 96);
+    margin-bottom: 12px;
+  }
+
+  .price{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(3, 101, 57, 0.712);
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 12px;
+  }
+
+  .previousPrice{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-left: 16px;
+    text-decoration:line-through;
+  }
+
+  button{
+    width: 300px;
+    padding: 14px 0px;
+    background-color: rgba(3, 101, 57, 0.712);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+  }
+
+  button:hover{
+    background-color: rgb(1, 56, 31);
+  }
+
+  .cart{
+    margin-right: 12px;
+  }
+}
+
+@media (min-width:451px) and (max-width:1000px) {
+  section{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+
+  .card{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(96, 96, 96);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .productImg{
+    width: 100%;
+    height: 420px;
+  }
+
+  #mobile{
+    display: none;
+    width: 100%;
+  }
+
+  #desktop{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .content{
+    padding: 30px;
+    width: 250px;
+  }
+
+  .perfume{
+    color: rgb(96, 96, 96);
+    letter-spacing: 6px;
+    margin-bottom: 12px;
+  }
+
+  .productTitle{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+
+  .description{  
+    color: rgb(96, 96, 96);
+    margin-bottom: 12px;
+  }
+
+  .price{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(3, 101, 57, 0.712);
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .previousPrice{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-left: 16px;
+    text-decoration:line-through;
+  }
+
+  button{
+    width: 200px;
+    padding: 14px 0px;
+    background-color: rgba(3, 101, 57, 0.712);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+  }
+
+  button:hover{
+    background-color: rgb(1, 56, 31);
+  }
+
+  .cart{
+    margin-right: 12px;
+  }
+}
+
+@media (min-width:1001px) {
+  section{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+  }
+
+  .card{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(96, 96, 96);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .productImg{
+    width: 100%;
+    height: 420px;
+  }
+
+  #mobile{
+    display: none;
+    width: 100%;
+  }
+
+  #desktop{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .content{
+    padding: 30px;
+    width: 250px;
+  }
+
+  .perfume{
+    color: rgb(96, 96, 96);
+    letter-spacing: 6px;
+    margin-bottom: 12px;
+  }
+
+  .productTitle{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+
+  .description{  
+    color: rgb(96, 96, 96);
+    margin-bottom: 12px;
+  }
+
+  .price{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(3, 101, 57, 0.712);
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .previousPrice{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-left: 16px;
+    text-decoration:line-through;
+  }
+
+  button{
+    width: 200px;
+    padding: 14px 0px;
+    background-color: rgba(3, 101, 57, 0.712);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+  }
+
+  button:hover{
+    background-color: rgb(1, 56, 31);
+  }
+
+  .cart{
+    margin-right: 12px;
+  }
+}
